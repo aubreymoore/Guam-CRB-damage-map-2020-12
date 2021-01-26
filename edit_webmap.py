@@ -97,7 +97,7 @@ abstract += f'<tr><td><b>Trees damaged:</td><td style="text-align:right"><b>{per
 abstract += '</table>'
 abstract += '<img src="pie.svg" width="350">'
 abstract += '<br>Data source:'
-abstract += '<br><a href="https:/github.com/aubreymoore/Guam-CRB-damage-map-2020-10">https:/github.com/aubreymoore/Guam-CRB-damage-map-2020-12</a>'
+abstract += '<br><a href="https:/github.com/aubreymoore/Guam-CRB-damage-map-2020-12">https:/github.com/aubreymoore/Guam-CRB-damage-map-2020-12</a>'
 
 # Load string with file contents
 filepath = 'index.html'
