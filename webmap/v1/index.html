@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
         <style>
 .abstractUncollapsed {max-width: 100%;}
+.abstractUncollapsed {max-width: 100%;}
         html, body, #map {
             width: 100%;
             height: 100%;
@@ -96,7 +97,7 @@
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 1.0, 
+                weight: 1.0,
                 fill: true,
                 fillOpacity: 0.75,
                 fillColor: 'rgba(0,255,0,1.0)',
@@ -111,7 +112,7 @@
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 1.0, 
+                weight: 1.0,
                 fill: true,
                 fillOpacity: 0.75,
                 fillColor: 'rgba(0,128,0,1.0)',
@@ -126,7 +127,7 @@
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 1.0, 
+                weight: 1.0,
                 fill: true,
                 fillOpacity: 0.75,
                 fillColor: 'rgba(255,255,0,1.0)',
@@ -141,7 +142,7 @@
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 1.0, 
+                weight: 1.0,
                 fill: true,
                 fillOpacity: 0.75,
                 fillColor: 'rgba(255,165,0,1.0)',
@@ -156,7 +157,7 @@
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 1.0, 
+                weight: 1.0,
                 fill: true,
                 fillOpacity: 0.75,
                 fillColor: 'rgba(255,100,0,1.0)',
@@ -171,7 +172,7 @@
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 1.0, 
+                weight: 1.0,
                 fill: true,
                 fillOpacity: 0.75,
                 fillColor: 'rgba(255,0,0,1.0)',
@@ -275,7 +276,7 @@
                 lineJoin: 'miter',
                 weight: 1,
                 fill: true,
-                fillOpacity: 1,
+                fillOpacity: 0.75,
                 fillColor: 'rgba(255,0,255,1.0)',
                 interactive: true,
             }
@@ -311,7 +312,7 @@
                 abstract.show = function () {
                     this._div.classList.remove("abstract");
                     this._div.classList.add("abstractUncollapsed");
-                    this._div.innerHTML = '<b>Coconut Rhinoceros Beetle Damage</b><br><b>Guam Roadside Video Survey 2020-12</b><br><br><table><tr><td>Start date:</td><td  style="text-align:right">2020-12-11</td></tr><tr><td>End date:</td><td  style="text-align:right">2020-12-24</td></tr><tr><td>Video frames examined:</td><td style="text-align:right">882,847</td></tr><tr></tr><tr><td><b>V-cuts detected:</b></td><td style="text-align:right"><b>17,457</b></td></tr><tr></tr><tr><td>Coconut palm images:</td><td style="text-align:right">76,088</td></tr><tr><td>0 No damage:</td><td style="text-align:right">59,695</td></tr><tr><td>1 Light damage:</td><td style="text-align:right">9,122</td></tr><tr><td>2 Medium damage:</td><td style="text-align:right">4,461</td></tr><tr><td>3 High damage:</td><td style="text-align:right">2,341</td></tr><tr><td>4 Moribund or dead:</td><td style="text-align:right">469</td></tr><tr><td><b>Mean damage index:</td><td style="text-align:right"><b>0.354</b></td></tr><tr><td><b>Trees damaged:</td><td style="text-align:right"><b>21.5%</b></td></tr></table><img src="pie.svg" width="350"><br>Data source:<br><a href="https://github.com/aubreymoore/Guam-CRB-damage-map-2020-12">https://github.com/aubreymoore/Guam-CRB-damage-map-2020-12</a>';
+                    this._div.innerHTML = '<b>Coconut Rhinoceros Beetle Damage</b><br><b>Guam Roadside Video Survey 2020-12</b><br><br><table><tr><td>Start date:</td><td  style="text-align:right">2020-12-11</td></tr><tr><td>End date:</td><td  style="text-align:right">2020-12-24</td></tr><tr><td>Video frames examined:</td><td style="text-align:right">882,847</td></tr><tr></tr><tr><td><b>V-cuts detected:</b></td><td style="text-align:right"><b>17,457</b></td></tr><tr></tr><tr><td>Coconut palm images:</td><td style="text-align:right">76,088</td></tr><tr><td>0 No damage:</td><td style="text-align:right">59,695</td></tr><tr><td>1 Light damage:</td><td style="text-align:right">9,122</td></tr><tr><td>2 Medium damage:</td><td style="text-align:right">4,461</td></tr><tr><td>3 High damage:</td><td style="text-align:right">2,341</td></tr><tr><td>4 Moribund or dead:</td><td style="text-align:right">469</td></tr><tr><td><b>Mean damage index:</td><td style="text-align:right"><b>0.354</b></td></tr><tr><td><b>Trees damaged:</td><td style="text-align:right"><b>21.5%</b></td></tr><tr><td>Damage increased significantly from 19.2% in 2020-10.</td></tr></table><img src="pie.svg" width="350"><br>Data source:<br><a href="https://github.com/aubreymoore/Guam-CRB-damage-map-2020-12">https://github.com/aubreymoore/Guam-CRB-damage-map-2020-12</a>';
             };
             abstract.addTo(map);
         var baseMaps = {};
